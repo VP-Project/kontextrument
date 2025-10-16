@@ -63,6 +63,21 @@ If you're using the tool and missing a feature more than twice - [let me know](h
 - **pypubsub** 4.0.3
 -  **pywinpty** on Windows or **ptyprocess** on other operating systems.
 
+
+---
+
+## Installing
+
+### Option 1
+1.  Download the archive (if **I've** built one for your OS).
+2.  **Unpack** the archive and place the executable in a convenient location.
+3.  Run the executable.
+
+### Option 2
+1.  Download the source code (either as a zip archive or via git).
+2.  Navigate to the folder where your code is located.
+3.  Run `pip install -e .` (Note: installing without the "-e" flag is not currently supported).
+
 ---
 
 ## Who is it for?
