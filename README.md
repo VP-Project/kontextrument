@@ -4,8 +4,6 @@ Kontextrument is a desktop/CLI assistant designed to streamline developing softw
 
 The tool was almost entirely created using itself (except the first version, obviously), following both "bootstrap" and "dog food" principles.
 
----
-
 ## The main idea is simple
 
 * **Bring Your Own Chatbot** - Use any web chat service you want: ChatGPT, Gemini, Claude, Deepseek, Perplexity AI, or your local models (if you happen to own a data center). You can switch between chatbots for different tasks without any problems (I did).
@@ -13,8 +11,6 @@ The tool was almost entirely created using itself (except the first version, obv
 * **Automate the integration** - Manually integrating AI replies into code took a lot of time and effort. The idea was to take an LLM's reply and automatically apply it as changes to existing code, often across multiple files. Some people request replies in JSON, but I've personally gotten more consistent results with Markdown—and Markdown replies are much easier to read.
 * **Preview then integrate** - You can preview the changes before integrating them. There's no rollback support, and I don't plan on implementing it, because Git already solves this problem perfectly.
 * **Commit the changes to VCS** - This is my main advice. Use Git or any other version control system, even if you don't plan to share the code. On multiple occasions, I've had to restart a feature development, and doing so without version control would have been a headache.
-
----
 
 ## Features
 
@@ -40,8 +36,6 @@ Kontextrument combines several tools into a modular, tab-based GUI backed by pow
     * The standalone **build** is made with `PyInstaller`, with all its pros and cons. On one hand, it allows you to download a ready to use executable and use it without worrying about dependencies. On the other hand, antivirus software, especially Windows Defender, seems to hate `PyInstaller`.
     * Binary for linux contains WebKit, so it's 5 times bigger than binary for Windows (that uses Edge, provided by the OS).
 
----
-
 ## Practical reactive development philosophy and the absence of roadmap.
 
 You may probably recognise, that there is no bigger plan or scheme behind the tool.
@@ -49,8 +43,6 @@ The core philosophy behind this tool's feature list can be summarized in one phr
 **"If i needed it more than twice, I'm making a feature for it."**
 
 If you're using the tool and missing a feature more than twice - [let me know](https://github.com/VP-Project/kontextrument/issues).
-
----
 
 ## Requirements
 
@@ -62,8 +54,6 @@ If you're using the tool and missing a feature more than twice - [let me know](h
 - **wxpython** 4.2.3
 - **pypubsub** 4.0.3
 -  **pywinpty** on Windows or **ptyprocess** on other operating systems.
-
----
 
 ## Installing
 
@@ -77,13 +67,9 @@ If you're using the tool and missing a feature more than twice - [let me know](h
 2.  Navigate to the folder where your code is located.
 3.  Run `pip install -e .` (Note: installing without the "-e" flag is not currently supported).
 
----
-
 ## Known limitations
 
 - WxPython in SteamOS does not include working WebView component. Kotextrument can still be used in Desktop mode on Steamdeck, but the integrated browser won't work, you'll have to use your own browser.
-
----
 
 ## Who is it for?
 
@@ -110,8 +96,6 @@ If you're using the tool and missing a feature more than twice - [let me know](h
 - Report bugs and problems to you chatbot (mostly, using the same chat is okay). Copy reply and apply it again. Repeat until you're satisfied with the result. If you hit a dead end, try starting a new chat with updated listing and task description (resolving a problem instead of feature implementation).
 - Commit the changes into version control system (even if just locally).
 - Now you are ready to start working on another task.
-
----
 
 ## Why not just use an AI-powered IDE like everyone else does?
 
