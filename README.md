@@ -77,8 +77,6 @@ If you're using the tool and missing a feature more than twice - [let me know](h
 - People who don't want to or can't pay for multiple subscriptions.
 - Anyone who cares to try and finds my workflow suitable.
 
----
-
 ## Usual workflow
 
 - Launch the tool and pick the folder with your project.
