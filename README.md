@@ -63,7 +63,6 @@ If you're using the tool and missing a feature more than twice - [let me know](h
 - **pypubsub** 4.0.3
 -  **pywinpty** on Windows or **ptyprocess** on other operating systems.
 
-
 ---
 
 ## Installing
@@ -77,6 +76,12 @@ If you're using the tool and missing a feature more than twice - [let me know](h
 1.  Download the source code (either as a zip archive or via git).
 2.  Navigate to the folder where your code is located.
 3.  Run `pip install -e .` (Note: installing without the "-e" flag is not currently supported).
+
+---
+
+## Known limitations
+
+- WxPython in SteamOS does not include working WebView component. Kotextrument can still be used in Desktop mode on Steamdeck, but the integrated browser won't work, you'll have to use your own browser.
 
 ---
 
