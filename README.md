@@ -4,6 +4,8 @@ Kontextrument is a desktop/CLI assistant designed to streamline developing softw
 
 The tool was almost entirely created using itself (except the first version, obviously), following both "bootstrap" and "dog food" principles.
 
+[<img width="800" height="450" alt="Screenshot-ContextCreate" src="https://github.com/user-attachments/assets/ab68e0d9-5a31-4485-8a20-cb33e3fe39c5" />](https://github.com/user-attachments/assets/ab68e0d9-5a31-4485-8a20-cb33e3fe39c5)
+
 ## The main idea is simple
 
 * **Bring Your Own Chatbot** - Use any web chat service you want: ChatGPT, Gemini, Claude, Deepseek, Perplexity AI, or your local models (if you happen to own a data center). You can switch between chatbots for different tasks without any problems (I did).
